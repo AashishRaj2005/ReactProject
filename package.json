@@ -1,0 +1,33 @@
+{
+  "name": "react_proj",
+  "version": "1.0.0",
+  "description": "my accomplishmints",
+  "main": "index.html",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AashishRaj2005/ReactProject.git"
+  },
+  "keywords": [
+    "react",
+    "akshaysaini",
+    "git",
+    "github",
+    "parcel"
+  ],
+  "author": "Aashish Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AashishRaj2005/ReactProject/issues"
+  },
+  "homepage": "https://github.com/AashishRaj2005/ReactProject#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
