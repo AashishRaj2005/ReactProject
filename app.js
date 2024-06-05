@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 const logo = (
   <div id="logo">
-    <img src="152276850.png" alt="a" />
+    <img src="Images/152276850.png" alt="a" />
   </div>
 );
 
@@ -15,7 +15,7 @@ const searchbar = (
 
 const user = (
   <div id="user">
-    <img src="profile.png" alt="u" />
+    <img src="Images/profile.png" alt="u" />
   </div>
 );
 const Header = () => (
