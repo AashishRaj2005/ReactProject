@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "./index.css"
 
 const logo = (
   <div id="logo">
-    <img src="Images/152276850.png" alt="a" />
+    <img url="Images/152276850.png" alt="a" />
   </div>
 );
 
@@ -15,15 +16,17 @@ const searchbar = (
 
 const user = (
   <div id="user">
-    <img src="Images/profile.png" alt="u" />
+    <img url="Images/profile.png" alt="u" />
   </div>
 );
 const Header = () => (
-  <div id="header">
-    {logo}
-    {searchbar}
-    {user}
-  </div>
+  <header id="header">
+    <nav>
+      <img url="Images/152276850.png" alt="a" />
+      <input type="text" placeholder="Search..." />
+      <img url="Images/profile.png" alt="u" />
+    </nav>
+  </header>
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
