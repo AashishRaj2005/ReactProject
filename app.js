@@ -1,31 +1,31 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
-const logo = () => (
-    <div id="logo">
-        <img src="Images\152276850.jfif" alt="a" />
-    </div>
+const logo = (
+  <div id="logo">
+    <img src="152276850.png" alt="a" />
+  </div>
 );
 
-const searchbar = () => (
-    <div id="searchbar">
-        <input type="text" placeholder="Search..." />
-    </div>
+const searchbar = (
+  <div id="searchbar">
+    <input type="text" placeholder="Search..." />
+  </div>
 );
 
-const user =() => (
-    <div id="user">
-        <img src="Images\profile.png" alt="u" />dddddddddddddddddddddddddddddddddddddddddddddddddd
-    </div>
+const user = (
+  <div id="user">
+    <img src="profile.png" alt="u" />
+  </div>
 );
 const Header = () => (
-    <div id="header">
-        {logo}
-        {searchbar}
-        {user}
-    </div>
+  <div id="header">
+    {logo}
+    {searchbar}
+    {user}
+  </div>
 );
 
-const root =ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render({Header()});
+root.render(<Header></Header>);
