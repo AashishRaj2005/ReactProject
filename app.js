@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css"
+import "./index.css";
 
 const logo = (
   <div id="logo">
@@ -22,9 +22,9 @@ const user = (
 const Header = () => (
   <header id="header">
     <nav>
-      <img url="Images/152276850.png" alt="a" />
+      <img url={"Images/152276850.png"} alt="a" />
       <input type="text" placeholder="Search..." />
-      <img url="Images/profile.png" alt="u" />
+      <img url={"Images/profile.png"} alt="u" />
     </nav>
   </header>
 );
